@@ -4,10 +4,12 @@
 
 html {
 	scroll-padding-top: 98px;
+	
 }
 body {
 	font-family: "Montserrat", sans-serif;
 	background-color: $bg-color;
+	
 }
 
 h2 {
@@ -29,7 +31,7 @@ nav {
 	text-transform: uppercase;
 	z-index: 2;
 	// w indexie dodałem position-relative w bootstrapie i nawigacja zwężyła się na maxa - aby znów byłą po dwóch stronach ekranu wydłużam na 100% rodzica. Inna alternatywa to zostawić tak jak było oryginalnie i dać transform: translateY(-4rem) na hero-grafice
-	width: 100%;
+	width: 100vw;
 	transition: background-color 0.6s;
 }
 .nav-container {
