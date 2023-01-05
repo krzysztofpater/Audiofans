@@ -1,3 +1,7 @@
+// current year
+document.getElementById('currentYear').innerText = new Date().getFullYear();
+
+
 document.addEventListener("DOMContentLoaded", function () {
 	const navi = document.querySelector(".navbar");
 	const link = document.querySelectorAll(".nav-link");
