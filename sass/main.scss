@@ -26,12 +26,14 @@ h2 {
 }
 
 // nawigacja
+
 nav {
 	text-transform: uppercase;
 	z-index: 2;
 	// w indexie dodałem position-relative w bootstrapie i nawigacja zwężyła się na maxa - aby znów byłą po dwóch stronach ekranu wydłużam na 100% rodzica. Inna alternatywa to zostawić tak jak było oryginalnie i dać transform: translateY(-4rem) na hero-grafice
 	width: 100%;
 	transition: background-color 0.6s;
+	
 }
 .nav-container {
 	z-index: 100;
@@ -76,7 +78,7 @@ nav::before {
 	content: "";
 	position: absolute;
 	height: 100%;
-	width: 100%;
+	width: 100vw;
 	backdrop-filter: blur(6px);
 }
 
@@ -170,6 +172,7 @@ i {
 	z-index: 0;
 	.container {
 		z-index: 2;
+		overflow-x: hidden;
 	}
 }
 .hero-img-about::before {
@@ -331,6 +334,7 @@ i {
 
 .achivements {
 	.container {
+		overflow-x: hidden;
 		.row {
 			p {
 				text-transform: uppercase;

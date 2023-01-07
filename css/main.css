@@ -162,7 +162,7 @@ nav::before {
   content: "";
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 100vw;
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
 }
@@ -253,6 +253,7 @@ i {
 }
 .hero-img-about .container {
   z-index: 2;
+  overflow-x: hidden;
 }
 
 .hero-img-about::before {
@@ -391,6 +392,9 @@ i {
   transform: scale(0.98);
 }
 
+.achivements .container {
+  overflow-x: hidden;
+}
 .achivements .container .row p {
   text-transform: uppercase;
 }
