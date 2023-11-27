@@ -1,5 +1,5 @@
 # Audiofans
-### A repository page
+### A portfolio page
 
 You can access the page at: https://krzysztofpater.github.io/Audiofans/
 
